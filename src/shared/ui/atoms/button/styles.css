@@ -1,0 +1,37 @@
+button {
+    padding: 0.25rem 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    color: #FAFAFA;
+}
+
+button:disabled {
+    background: #737373;
+    cursor: not-allowed;
+}
+
+.primary {
+    background: #3336ff;
+}
+
+.primary:hover {
+    background: #2124c0;
+}
+
+.secondary {
+    background: #FFFFFF02;
+}
+.secondary:hover {
+    background: #FFFFFF1A;
+}
+
+.danger {
+    background: #ff0000;
+}
+
+.danger:hover {
+    background: #980000;
+}
