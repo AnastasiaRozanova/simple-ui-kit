@@ -8,6 +8,7 @@
     transition-duration: 300ms;
     color: #FAFAFA;
     outline: none;
+    border: none;
     box-sizing: border-box;
 }
 
