@@ -6,5 +6,5 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & PropsWithChi
 };
 
 export const Button = ({ children, theme = 'primary', ...props }: ButtonProps) => (
-		<button className={theme} {...props}>{children}</button>
+		<button className={`button ${theme}`} {...props}>{children}</button>
 );

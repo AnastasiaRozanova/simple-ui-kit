@@ -1,14 +1,17 @@
-button {
-    padding: 0.25rem 1rem;
-    border-radius: 0.75rem;
+.button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    height: 40px;
     text-align: center;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
     color: #FAFAFA;
+    outline: none;
+    box-sizing: border-box;
 }
 
-button:disabled {
+.button:disabled {
     background: #737373;
     cursor: not-allowed;
 }
