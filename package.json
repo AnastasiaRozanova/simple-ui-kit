@@ -1,5 +1,5 @@
 {
-  "name": "@AnastasiaRozanova/simple-ui-kit",
+  "name": "@AnastasiaRozanova/simple-ui-lib",
   "version": "1.0.0",
   "description": "A personalised UI library",
   "scripts": {
@@ -9,6 +9,8 @@
   "author": "Anastasiya Rozanova",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
@@ -17,10 +19,14 @@
     "rollup": "^4.17.2",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "react": "^18.3.1"
+  },
+  "peerDependencies": {
     "react": "^18.3.1"
   },
   "main": "dist/cjs/index.js",
@@ -30,6 +36,6 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/AnastasiaRozanova"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
