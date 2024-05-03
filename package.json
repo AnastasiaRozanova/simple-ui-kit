@@ -1,6 +1,6 @@
 {
-  "name": "@AnastasiaRozanova/simple-ui-lib",
-  "version": "1.0.0",
+  "name": "simple-ui-kit",
+  "version": "1.0.1",
   "description": "A personalised UI library",
   "scripts": {
     "dev": "rollup -c --watch",
@@ -18,8 +18,8 @@
     "postcss": "^8.4.38",
     "rollup": "^4.17.2",
     "rollup-plugin-dts": "^6.1.0",
-    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5"
   },
@@ -34,8 +34,5 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  ]
 }
