@@ -1,6 +1,6 @@
 {
   "name": "@anastasiyarozanova/simple-ui-kit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A personalised UI library",
   "scripts": {
     "dev": "rollup -c --watch",
